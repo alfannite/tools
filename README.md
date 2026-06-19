@@ -33,22 +33,6 @@ Repositori ini dirancang agar **modular**, **portabel**, dan **mudah dikembangka
 
 ---
 
-## 📁 Struktur Folder
-
-```bash
-tools/
-├── src/                # Kode sumber utama
-│   ├── converters/     # Skrip konversi data
-│   ├── automations/    # Skrip otomatisasi folder/file
-│   └── helpers/        # Fungsi pembantu umum
-├── tests/              # Unit test (jika ada)
-├── docs/               # Dokumentasi tambahan
-├── .env.example        # Contoh environment variable
-├── requirements.txt    # Dependensi Python (jika pakai Python)
-└── README.md           # File ini
-```
----
-
 <div align="center">
   <p>Made by Alfannite for you hehe 😊 </p>
 
