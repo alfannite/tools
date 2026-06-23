@@ -1,0 +1,13 @@
+server {
+        listen 443 ssl;
+        server_name swi2.faybee.io;
+
+        ssl_certificate /etc/nginx/ssl/mikrotik.crt;
+        ssl_certificate_key /etc/nginx/ssl/mikrotik.key;
+
+        location / {
+            proxy_pass http://192.168.10.253;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+        }
+}

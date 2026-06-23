@@ -1,0 +1,19 @@
+network:
+  version: 2
+  ethernets:
+    ens18: {}
+
+  vlans:
+    ens18.22:
+      id: 22
+      link: ens18
+      addresses:
+        - 172.99.99.5/30
+      nameservers:
+        addresses:
+          - 172.99.99.4
+        search:
+          - 172.99.99.4
+      routes:
+        - to: default
+          via: 172.99.99.4
