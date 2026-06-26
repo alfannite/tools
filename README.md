@@ -3,18 +3,6 @@
 > Koleksi alat bantu (utility scripts) untuk mempercepat alur kerja sehari-hari.
 ---
 
-## 📦 Daftar Isi
-
-- [Tentang](#-tentang)
-- [Fitur Utama](#-fitur-utama)
-- [Struktur Folder](#-struktur-folder)
-- [Instalasi](#-instalasi)
-- [Cara Penggunaan](#-cara-penggunaan)
-- [Kontribusi](#-kontribusi)
-- [Lisensi](#-lisensi)
-
----
-
 ## 📖 Tentang
 
 **Tools** adalah repositori pusat untuk menyimpan berbagai skrip dan utilitas ringan yang saya gunakan dalam pengembangan sehari-hari. Mulai dari otomatisasi folder, konversi format, hingga integrasi API sederhana — semuanya ada di sini.
